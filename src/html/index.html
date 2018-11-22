@@ -1,0 +1,26 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+  <button type="button" name="button" class="btn btn--load js-btn-load">
+    <span>Test</span>
+    <div class="btn__container js-btn-load-container">
+      <div class="btn__icon btn__icon--tick">
+        <svg viewBox="0 0 50 37" xmlns="http://www.w3.org/2000/svg">
+          <path id="load-tick" stroke="#fff" stroke-width="6" d="M44 6L19.495 31 6 17.222" fill="none" fill-rule="evenodd" stroke-linecap="square"/>
+        </svg>
+      </div>
+
+      <div class="btn__icon btn__icon--circle">
+        <svg viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
+          <circle id="load-circle" stroke="#fff" stroke-width="10" cx="45" cy="45" r="40" fill="none" fill-rule="evenodd"/>
+        </svg>
+      </div>
+    </div>
+  </button>
+{% endblock %}
