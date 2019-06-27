@@ -2,12 +2,18 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 0.75em;
-  background: $black;
+  padding: 0.5em 0.75em;
+  border-radius: 0.1em;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  box-shadow: 0 0.25em 0.5em rgba(0,0,0,0.25);
   color: $white;
   font-family: $ff-primary;
-  text-transform: uppercase;
   border: none;
+  outline: none;
+}
+
+.btn__letters {
+  display: flex;
 }
 
 .btn--load {
@@ -21,9 +27,9 @@
 .btn__container {
   display: flex;
   align-items: center;
-  position: relative;
-  width: 1.25em;
-  margin-left: $gtr-half;
+  position: absolute;
+  width: 1em;
+  opacity: 0;
 }
 
 .btn__icon {
