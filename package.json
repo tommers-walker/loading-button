@@ -5,6 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "blendid": "https://github.com/tommers-walker/blendid",
-    "gsap": "^2.0.2"
+    "gsap": "^3.6.0"
   }
 }
